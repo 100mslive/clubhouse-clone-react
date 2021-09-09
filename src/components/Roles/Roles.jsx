@@ -1,9 +1,15 @@
 import React from 'react';
 import MenuIcon from '../../icons/MenuIcon';
+import { useHMSActions } from '@100mslive/hms-video-react';
 
 const Permission = ({ audioTrack, id }) => {
-  const mutePeer = () => {};
-  const changeRole = (role) => {};
+  const hmsActions = useHMSActions();
+  const mutePeer = () => {
+    hmsActions.setRemoteTrackEnabled(audioTrack, false);
+  };
+  const changeRole = (role) => {
+    hmsActions.changeRole(id, role, true);
+  };
   const btnClass = 'flex w-32 text-sm font-semibold hover:bg-gray-800 p-2';
   return (
     <div className='absolute right-0 top-0 menu-btn z-50'>
@@ -18,7 +24,7 @@ const Permission = ({ audioTrack, id }) => {
           Make Listener
         </button>
         <button className={btnClass} onClick={() => changeRole('speaker')}>
-          Mute Speaker
+          Make Speaker
         </button>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Permission = ({ audioTrack, id }) => {
           Make Listener
         </button>
         <button className={btnClass} onClick={() => changeRole('speaker')}>
-          Mute Speaker
+          Make Speaker
         </button>
       </div>
     </div>

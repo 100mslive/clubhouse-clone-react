@@ -5,6 +5,10 @@ import ChatContainer from './Chat/ChatContainer';
 
 const Room = () => {
   const peers = useHMSStore(selectPeers);
+  for (let i=0; i<10;i++) {
+    const dummyPeer = {id: i, name: "sth", roleName: "listener"};
+    peers.push(dummyPeer);
+  }
   return (
     <div className='flex flex-col pt-4'>
       <div className='flex justify-between items-start'>

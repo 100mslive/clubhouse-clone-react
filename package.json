@@ -10,7 +10,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "iconv-lite": "^0.6.3",
+    "iconv-lite": "^0.6.3"
   },
   "scripts": {
     "start": "craco start",

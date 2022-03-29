@@ -19,6 +19,7 @@ const Join = () => {
           settings: {
             isAudioMuted: true,
           },
+          initEndpoint : process.env.NEXT_PUBLIC_HMS_INIT_PEER_ENPOINT || undefined
         });
       })
       .catch((error) => {

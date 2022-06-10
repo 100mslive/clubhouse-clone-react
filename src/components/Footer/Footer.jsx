@@ -6,7 +6,7 @@ import {
   useHMSActions,
   useHMSStore,
   selectIsLocalAudioEnabled,
-} from '@100mslive/hms-video-react';
+} from '@100mslive/react-sdk';
 
 const Footer = ({ count }) => {
   const hmsActions = useHMSActions();

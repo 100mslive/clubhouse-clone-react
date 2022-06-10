@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@100mslive/hms-video": "^0.0.148",
-    "@100mslive/hms-video-react": "^0.3.32",
+    "@100mslive/react-sdk": "^0.1.1",
+    "@100mslive/react-ui": "^0.1.1",
     "@craco/craco": "^6.2.0",
     "boring-avatars": "^1.5.8",
+    "iconv-lite": "^0.6.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "iconv-lite": "^0.6.3"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "craco start",
@@ -41,7 +41,7 @@
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
-    "resolutions": {
+  "resolutions": {
     "iconv-lite": "^0.6.3"
   }
 }

@@ -7,7 +7,7 @@ import {
   selectPeerAudioByID,
   selectIsPeerAudioEnabled,
   selectLocalPeer,
-} from '@100mslive/hms-video-react';
+} from '@100mslive/react-sdk';
 import Permission from '../Roles/Roles';
 
 const User = ({ peer }) => {

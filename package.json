@@ -2,6 +2,9 @@
   "name": "hms-spaces",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^14 || ^16"
+  },
   "dependencies": {
     "@100mslive/hms-video": "^0.0.148",
     "@100mslive/hms-video-react": "^0.3.32",

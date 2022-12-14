@@ -4,7 +4,7 @@ import JoinButton from './Join/JoinButton';
 import Avatar from 'boring-avatars';
 import Select from './Join/Select';
 import getToken from '../utils/getToken';
-import { useHMSActions } from '@100mslive/hms-video-react';
+import { useHMSActions } from '@100mslive/react-sdk';
 
 const Join = () => {
   const hmsActions = useHMSActions();

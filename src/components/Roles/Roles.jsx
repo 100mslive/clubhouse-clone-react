@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuIcon from '../../icons/MenuIcon';
-import { useHMSActions } from '@100mslive/hms-video-react';
+import { useHMSActions } from '@100mslive/react-sdk';
 
 const Permission = ({ audioTrack, id }) => {
   const hmsActions = useHMSActions();
